@@ -3,39 +3,6 @@
 Una página web romántica e interactiva para San Valentín con animaciones suaves y una propuesta especial.
 
 ## 🎯 Características
-
-- ✨ Fondo animado con corazones, flechas, nubes y alas cayendo
-- 💌 Carta roja que se abre con animación suave
-- 🎵 Música de fondo que comienza al abrir la carta
-- 📸 Espacio para foto personalizada
-- ✅ Botones interactivos donde "No" está deshabilitado y "Sí" crece cada vez que intentan hacer clic en "No"
-- 💖 Explosión de corazones al seleccionar "Sí"
-- 🗄️ Integración con Supabase para guardar la respuesta
-
-## 🚀 Configuración Rápida
-
-### 1. Agregar tu música y foto
-
-Coloca estos archivos en la carpeta `valentine/public/`:
-
-- **music.mp3** - Tu canción romántica favorita
-- **photo.jpg** - Una foto de ustedes dos (o cualquier imagen romántica)
-
-### 2. Configurar Supabase
-
-#### Crear cuenta y proyecto:
-1. Ve a [https://supabase.com](https://supabase.com) y crea una cuenta gratuita
-2. Crea un nuevo proyecto
-3. Espera a que el proyecto se inicialice (2-3 minutos)
-
-#### Configurar la base de datos:
-1. En tu proyecto de Supabase, ve a **SQL Editor** (barra lateral izquierda)
-2. Haz clic en **New Query**
-3. Abre el archivo `supabase-setup.sql` y copia todo el contenido
-4. Pégalo en el editor SQL de Supabase
-5. Haz clic en **Run** para ejecutar el script
-
-#### Obtener las credenciales:
 1. Ve a **Settings** → **API** en tu proyecto de Supabase
 2. Copia el **Project URL** (algo como: `https://xxxxx.supabase.co`)
 3. Copia el **anon/public key** (una larga cadena de texto)
