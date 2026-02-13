@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💕 ¿Para mi Antito? 💕</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- Animated background elements container -->
+  <div id="background-container"></div>
+
+  <!-- Main envelope/letter container -->
+  <div id="envelope-container">
+    <!-- Closed envelope -->
+    <div id="envelope" class="envelope">
+      <div class="envelope-flap"></div>
+      <div class="envelope-body"></div>
+      <div id="heart-seal" class="heart-seal">
+        <span class="heart-icon">💘</span>
+      </div>
+    </div>
+
+    <!-- Letter that slides out -->
+    <div id="letter" class="letter">
+      <div class="letter-content">
+        <div class="photo-container">
+          <img src="/photo.jpg" alt="Nosotros" class="photo" />
+        </div>
+        <h1 class="question">¿Puedo ser tu San valentín Antito💞?</h1>
+
+        <div class="checkbox-container">
+          <button id="btn-yes" class="btn-choice btn-yes">
+            <span class="checkbox-icon">💝</span>
+            <span>Sí</span>
+          </button>
+          <button id="btn-no" class="btn-choice btn-no">
+            <span class="checkbox-icon">💔</span>
+            <span>No</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio element for background music -->
+  <audio id="background-music" loop>
+    <source src="/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Heart explosion container -->
+  <div id="heart-explosion"></div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
